@@ -12,3 +12,7 @@ Clone the repo into your powershell project using git submodule preferably.
 ## Future Goals
 
 Reimplement as a module, create `.psm1`, `.psd1` for controlling dependencies.
+
+## Dirs
+
+- `base`: base directory that includes only the most basic things needed for a pwsh session.
