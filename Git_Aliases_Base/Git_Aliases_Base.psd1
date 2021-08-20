@@ -87,7 +87,7 @@ AliasesToExport = @()
 # ModuleList = @()
 
 # List of all files packaged with this module
-FileList = @(".\git_aliases.psd1", ".\git_aliases.psm1")
+FileList = @("git_aliases.psd1", "git_aliases.psm1")
 
 # Private data to pass to the module specified in RootModule/ModuleToProcess. This may also contain a PSData hashtable with additional module metadata used by PowerShell.
 PrivateData = @{
@@ -95,7 +95,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = 'git', 'workflow', 'aliases'
+        Tags = @('git', 'workflow', 'aliases')
 
         # A URL to the license for this module.
         # LicenseUri = ''

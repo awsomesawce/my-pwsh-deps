@@ -1,0 +1,26 @@
+{
+  "name": "my-pwsh-deps",
+  "version": "1.0.0",
+  "description": "Dependencies scripts for powershell scripts. Scripts that are meant to be sourced in other scripts to add functionality.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awsomesawce/my-pwsh-deps.git"
+  },
+  "keywords": [],
+  "author": "Carl C. (https://github.com/awsomesawce)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awsomesawce/my-pwsh-deps/issues"
+  },
+  "homepage": "https://github.com/awsomesawce/my-pwsh-deps#readme",
+  "dependencies": {
+    "async": "^3.2.1"
+  }
+}
