@@ -21,6 +21,10 @@
   },
   "homepage": "https://github.com/awsomesawce/my-pwsh-deps#readme",
   "dependencies": {
-    "async": "^3.2.1"
+    "async": "^3.2.1",
+    "node-powershell": "^4.0.0"
+  },
+  "optionalDependencies": {
+    "fs-extra": "^10.0.0"
   }
 }
