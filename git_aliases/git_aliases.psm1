@@ -4,6 +4,8 @@
 Git aliases and utilities
 .Description
 Personal powershell module implementing various git shortcuts and utilities
+.NOTE
+Look at ./optional.ps1 for alternative way of implementing these functions.
 #>
 param()
 
