@@ -1,10 +1,15 @@
 {
   "name": "my-pwsh-deps",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Dependencies scripts for powershell scripts. Scripts that are meant to be sourced in other scripts to add functionality.",
   "main": "index.js",
+  "type":"commonjs",
   "directories": {
-    "test": "test"
+    "nodesrc": "nodejs source and scripts go here",
+    "example": "Example scripts",
+    "test": "test",
+    "Modules": "PSModules I author go here.",
+    "envs": "Environment scripts that exist to aid external packages and projects."
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/awsomesawce/my-pwsh-deps.git"
   },
-  "keywords": [],
+  "keywords": ["powershell", "shell", "base", "core", "dependencies"],
   "author": "Carl C. (https://github.com/awsomesawce)",
   "license": "ISC",
   "bugs": {
@@ -26,5 +31,9 @@
   },
   "optionalDependencies": {
     "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "prettier": "^2.3.2"
   }
 }
