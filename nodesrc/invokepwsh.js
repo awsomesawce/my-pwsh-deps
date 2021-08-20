@@ -1,12 +1,21 @@
-//var pkgjson = require('./package.json')
-const powershell = require('node-powershell')
-let ps = new powershell({
+import Shell from 'node-powershell'
+import * as fs from 'fs'
+import * as path from 'path'
+const ps = new Shell({
+  pwsh: true, // Uses pwsh.exe instead of powershell.exe
+  verbose: true,
   executionPolicy: 'Bypass',
-  noProfile: true})
+  noProfile: true,
+});
+//let params = {format: 'FileDate'}
+let params = {path: path.resolve('../')}
+//ps.addCommand('Get-Date')
+ps.addCommand('Get-ChildItem')
+ps.addParameter(params)
 
-ps.addCommand('echo node-powershell is cool; Get-Date')
 ps.invoke().then(output => {
-console.log(`output is 
-  ${output}`);}).catch(err => {
-console.log(err);
-ps.dispose();})
+    console.log(output)})
+    .catch(err => {
+        console.error(err);
+        ps.dispose();
+    });
