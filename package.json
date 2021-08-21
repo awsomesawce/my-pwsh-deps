@@ -35,8 +35,7 @@
     "async": "^3.2.1",
     "execa": "^5.1.1",
     "minimist": "^1.2.5",
-    "node-powershell": "^4.0.0",
-    "vfile": "^5.0.2"
+    "node-powershell": "^4.0.0"
   },
   "optionalDependencies": {
     "fs-extra": "^10.0.0"

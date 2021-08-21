@@ -1,0 +1,28 @@
+[
+  {
+    "Parent": "D:\\Carl\\Documents\\GitHub",
+    "Root": "D:\\",
+    "FullName": "D:\\Carl\\Documents\\GitHub\\node_cli_package",
+    "Extension": "",
+    "Name": "node_cli_package",
+    "Exists": true,
+    "CreationTime": "2021-07-20T22:09:43.6586638-04:00",
+    "CreationTimeUtc": "2021-07-21T02:09:43.6586638Z",
+    "LastAccessTime": "2021-08-20T15:14:12.6940858-04:00",
+    "LastAccessTimeUtc": "2021-08-20T19:14:12.6940858Z",
+    "LastWriteTime": "2021-08-20T10:00:38.1708652-04:00",
+    "LastWriteTimeUtc": "2021-08-20T14:00:38.1708652Z",
+    "Attributes": 1048592,
+    "PSPath": "Microsoft.PowerShell.Core\\FileSystem::D:\\Carl\\Documents\\GitHub\\node_cli_package",
+    "PSParentPath": "Microsoft.PowerShell.Core\\FileSystem::D:\\Carl\\Documents\\GitHub",
+    "PSChildName": "node_cli_package",
+    "PSDrive": "D",
+    "PSProvider": "Microsoft.PowerShell.Core\\FileSystem",
+    "PSIsContainer": true,
+    "Mode": "d----",
+    "ModeWithoutHardLink": "d----",
+    "BaseName": "node_cli_package",
+    "Target": null,
+    "LinkType": null
+  }
+]
